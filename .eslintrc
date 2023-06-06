@@ -1,0 +1,7 @@
+{
+  "root": true,
+  "extends": ["@front-end/eslint-config-zyx", "./.eslintrc-auto-import.json", "@unocss"],
+  "globals": {
+    "__APP_INFO__": true
+  }
+}

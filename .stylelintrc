@@ -1,0 +1,4 @@
+{
+  "root": true,
+  "extends": ["@front-end/stylelint-config-zyx"]
+}

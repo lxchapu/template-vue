@@ -1,0 +1,7 @@
+{
+  "stylelint.validate": ["css", "scss", "sass", "vue", "html"],
+  "stylelint.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true // 是否在保存时将你的报错自动修复
+  }
+}

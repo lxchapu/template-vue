@@ -1,0 +1,20 @@
+/* 字体 */
+$font-family: -apple-system, 'BlinkMacSystemFont', 'Helvetica Neue', helvetica, 'PingFang SC',
+  'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', arial, sans-serif;
+
+html,
+body,
+#app {
+  width: 100%;
+  min-width: 375px;
+}
+
+body {
+  overflow-x: auto;
+  font-family: $font-family;
+  font-size: 14px;
+  color: $color-2;
+  background-color: $bg-color-5;
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
