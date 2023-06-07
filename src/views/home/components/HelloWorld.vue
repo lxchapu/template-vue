@@ -89,5 +89,3 @@ const themeStore = useThemeStore()
     <span>{{ themeStore.isDark ? '深色' : '浅色' }}</span>
   </n-space>
 </template>
-
-

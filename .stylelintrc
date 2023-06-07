@@ -1,4 +1,4 @@
 {
   "root": true,
-  "extends": ["@front-end/stylelint-config-zyx"]
+  "extends": ["@lxchapu/stylelint-config-vue"]
 }
