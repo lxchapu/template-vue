@@ -1,6 +1,6 @@
 import type { ConfigEnv, UserConfig } from 'vite'
 import { loadEnv } from 'vite'
-import { getSrcPath, getRootPath, wrapperEnv } from './build/utils'
+import { getSrcPath, getRootPath, wrapViteEnv } from './build/utils'
 import { createPostcssPlugins, createVitePlugins } from './build/plugins'
 import { version } from './package.json'
 
@@ -13,8 +13,7 @@ export default ({ mode }: ConfigEnv): UserConfig => {
   const srcPath = getSrcPath()
   const rootPath = getRootPath()
 
-  const env = loadEnv(mode, rootPath)
-  const viteEnv = wrapperEnv(env)
+  const viteEnv = wrapViteEnv(loadEnv(mode, rootPath))
 
   return {
     plugins: createVitePlugins(viteEnv),
