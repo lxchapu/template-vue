@@ -66,10 +66,10 @@ const themeStore = useThemeStore()
     <n-button @click="notify('error')"> 错误 </n-button>
   </n-space>
   <n-divider title-placement="left"> 图标 </n-divider>
-  <n-space>
-    <Icon icon="material-symbols:add-reaction" width="32" />
-    <SvgIcon type="alarm-on-rounded" :size="32" color="red" />
-  </n-space>
+  <div>
+    <icon-material-symbols-add-reaction width="32" height="32" />
+    <icon-custom-alarm-on-rounded width="32" height="32" fill="red" />
+  </div>
   <n-divider title-placement="left"> Markdown </n-divider>
   <TestMd />
   <n-divider title-placement="left"> 主题 </n-divider>

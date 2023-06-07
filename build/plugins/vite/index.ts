@@ -1,13 +1,10 @@
 import type { Plugin as VitePlugin } from 'vite'
 
-import { resolve } from 'path'
 import vueMd from 'vite-plugin-vue-markdown'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import vueLegacy from '@vitejs/plugin-legacy'
 import progress from 'vite-plugin-progress'
-import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
-import { getSrcPath } from '../../utils'
 import unoCSS from 'unocss/vite'
 import html from './html'
 import visualizer from './visualizer'
@@ -26,13 +23,6 @@ export function createVitePlugins(viteEnv: ImportMetaEnv) {
     unoCSS(),
     ...unplugin,
     progress(),
-
-    /** svg转精灵图 */
-    createSvgIconsPlugin({
-      iconDirs: [resolve(getSrcPath(), 'assets/icons')],
-      symbolId: 'sprite-[dir]-[name]',
-      customDomId: '__svg__icons__dom__',
-    }),
   ]
 
   if (viteEnv.VITE_VISUALIZER) {

@@ -9,7 +9,8 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    Icon: typeof import('@iconify/vue')['Icon']
+    IconCustomAlarmOnRounded: typeof import('~icons/custom/alarm-on-rounded')['default']
+    IconMaterialSymbolsAddReaction: typeof import('~icons/material-symbols/add-reaction')['default']
     NButton: typeof import('naive-ui')['NButton']
     NConfigProvider: typeof import('naive-ui')['NConfigProvider']
     NDivider: typeof import('naive-ui')['NDivider']

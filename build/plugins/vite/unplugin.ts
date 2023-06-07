@@ -2,8 +2,10 @@ import AutoImport from 'unplugin-auto-import/vite'
 import Component from 'unplugin-vue-components/vite'
 import Icons from 'unplugin-icons/vite'
 import IconsResolver from 'unplugin-icons/resolver'
+import { FileSystemIconLoader } from 'unplugin-icons/loaders'
 import { NaiveUiResolver } from 'unplugin-vue-components/resolvers'
 import { getRootPath, getSrcPath } from '../../utils'
+import { resolve } from 'path'
 
 const rootPath = getRootPath()
 const srcPath = getSrcPath()
@@ -11,13 +13,16 @@ const srcPath = getSrcPath()
 const componentPath = `${rootPath}/.eslintrc-auto-import.json`
 const declarePath = `${srcPath}/typings`
 
-const IconifyVueResolver = () => {
-  return (componentName: string) => {
-    if (componentName === 'Icon') return { name: componentName, from: '@iconify/vue' }
-  }
-}
 export default [
-  Icons({ autoInstall: true }),
+  Icons({
+    scale: 1,
+    defaultClass: 'svg-icon',
+    autoInstall: true,
+    compiler: 'vue3',
+    customCollections: {
+      custom: FileSystemIconLoader(resolve(srcPath, 'assets/icons')),
+    },
+  }),
 
   /** 自动导入组件 */
   Component({
@@ -25,8 +30,7 @@ export default [
     dts: `${declarePath}/components.d.ts`,
     resolvers: [
       NaiveUiResolver(),
-      IconsResolver({ customCollections: ['custom'], componentPrefix: 'icon' }),
-      IconifyVueResolver(),
+      IconsResolver({ prefix: 'icon', customCollections: ['custom'] }),
     ],
   }),
 
