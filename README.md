@@ -1,6 +1,4 @@
-# template-vue - template-project-vue-vite-pc启动模板
-
-template-project-vue-vite-pc启动模板PC 端页面
+# template-vue
 
 ![node ^14.18.0 | >=16.0.0](https://img.shields.io/badge/node-%5E14.18.0%20%7C%20%3E%3D16.0.0-brightgreen)
 ![pnpm](https://img.shields.io/badge/pnpm-orange)
@@ -8,50 +6,38 @@ template-project-vue-vite-pc启动模板PC 端页面
 ![vue ^3.2.47](https://img.shields.io/badge/vue-%5E3.2.47-blue)
 ![naive-ui ^2.34.3](https://img.shields.io/badge/naive--ui-%5E2.34.3-blue)
 
-## 内部依赖
+## Introduction
 
-| 名称                            | 版本   | 描述                                                                             |
-| ------------------------------- | ------ | -------------------------------------------------------------------------------- |
-| @front-end/eslint-config-zyx    | ^0.0.5 | ts,tsx,js,vue 等为规范化逻辑代码【类型检测,代码规范,编码分隔统一等】             |
-| @front-end/stylelint-config-zyx | ^0.0.8 | scss,sass,html,css,vue 为规范化样式代码【样式检测,可保存后自动调整样式代码顺序】 |
+This is a Vue.js 3.x project template.
 
-## 兼容性
+## Feature
 
-请参考 `package.json` 中的 `browserslist` 配置项
+- **Component**: Integrated `Naive-UI`
+- **TypeScript**: Develop using `TypeScript`
 
-## 相关资料导航链接
+## Preview
 
-- [版本更新日志](./CHANGELOG.md)
-- 部署地址:
-  - 研发环境地址: xxx
-  - 生产环境地址: xxx
+Not deployed
 
-## 项目命令
+## Change log
 
-use **pnpm**
+[CHANGELOG](./CHANGELOG.md)
+
+## Browser support
+
+Please refer to the `browserslist` configuration item in `package.json`.
+
+## How to use
+
+Recommend using `pnpm` as your package manager.
+
+- install
 
 ```bash
-# 安装依赖
 pnpm install or pnpm i
-# 启动本地服务器
-pnpm dev
-# 打包（生产环境）
-pnpm build
-# 打包（研发环境）
-pnpm test
-# 格式化代码
-pnpm prettier
-# 语法校验
-pnpm lint
-# 样式校验
-pnpm lint:style
-# TS 类型校验
-pnpm check:types
-# 提交更改
-pnpm commit
 ```
 
-## 目录结构划分
+## Directory
 
 ```text
 template-vue
