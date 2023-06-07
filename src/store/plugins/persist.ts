@@ -1,11 +1,3 @@
-/*
- * @Author: 杨旭
- * @Date: 2023-06-06 13:09:50
- * @LastEditors: 杨旭
- * @LastEditTime: 2023-06-06 13:09:50
- * @FilePath: template-vue\src\store\plugins\persist.ts
- * @Description: 数据持久化插件
- */
 /**
  * pinia-plugin-persist 插件必须将数据封装为对象
  * 故而手动实现该功能, 参考 useStorage 方法

@@ -1,11 +1,3 @@
-/*
- * @Author: 王嘉哲
- * @Date: 2023-06-06 13:09:50
- * @LastEditors: 杨旭
- * @LastEditTime: 2023-06-06 13:09:50
- * @FilePath: template-vue\build\plugins\vite\index.ts
- * @Description: Vite 插件
- */
 import type { Plugin as VitePlugin } from 'vite'
 
 import { resolve } from 'path'

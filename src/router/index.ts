@@ -1,11 +1,3 @@
-/*
- * @Author: 杨旭
- * @Date: 2023-06-06 13:09:50
- * @LastEditors: 杨旭
- * @LastEditTime: 2023-06-06 13:09:50
- * @FilePath: template-vue\src\router\index.ts
- * @Description: 路由实例
- */
 import type { App } from 'vue'
 
 import { createRouter, createWebHistory } from 'vue-router'

@@ -1,11 +1,3 @@
-/*
- * @Author: 王嘉哲
- * @Date: 2023-06-06 13:09:50
- * @LastEditors: 杨旭
- * @LastEditTime: 2023-06-07 16:45:38
- * @FilePath: \template-vue\src\plugins\assets.ts
- * @Description: css及相关资源映引入
- */
 /* reset */
 import '@unocss/reset/tailwind-compat.css'
 /* app */

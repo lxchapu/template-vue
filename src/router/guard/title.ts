@@ -1,11 +1,3 @@
-/*
- * @Author: 王嘉哲
- * @Date: 2023-06-06 13:09:50
- * @LastEditors: 王嘉哲
- * @LastEditTime: 2023-06-06 13:09:50
- * @FilePath: template-vue\src\router\guard\title.ts
- * @Description: 动态设置标题
- */
 import { NavigationHookAfter } from 'vue-router'
 
 /** 关闭loading */

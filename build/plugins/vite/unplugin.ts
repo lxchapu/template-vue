@@ -1,11 +1,3 @@
-/*
- * @Author: 王嘉哲
- * @Date: 2023-06-06 13:09:50
- * @LastEditors: 杨旭
- * @LastEditTime: 2023-06-06 13:09:50
- * @FilePath: template-vue\build\plugins\vite\unplugin.ts
- * @Description: 自动导入
- */
 import AutoImport from 'unplugin-auto-import/vite'
 import Component from 'unplugin-vue-components/vite'
 import Icons from 'unplugin-icons/vite'

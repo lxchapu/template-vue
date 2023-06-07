@@ -1,11 +1,3 @@
-/*
- * @Author: 杨旭
- * @Date: 2023-06-06 13:09:50
- * @LastEditors: 杨旭
- * @LastEditTime: 2023-06-06 13:09:50
- * @FilePath: template-vue\src\router\helpers\scroll.ts
- * @Description: 滚动行为
- */
 import type { RouterScrollBehavior } from 'vue-router'
 /**
  * 定位滚动行为

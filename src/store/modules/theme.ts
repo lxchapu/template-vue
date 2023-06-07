@@ -1,11 +1,3 @@
-/*
- * @Author: 杨旭
- * @Date: 2023-06-06 13:09:50
- * @LastEditors: 杨旭
- * @LastEditTime: 2023-06-06 13:09:50
- * @FilePath: template-vue\src\store\modules\theme.ts
- * @Description: 主题
- */
 import type { GlobalTheme, GlobalThemeOverrides } from 'naive-ui'
 
 import { lightTheme, darkTheme } from 'naive-ui'

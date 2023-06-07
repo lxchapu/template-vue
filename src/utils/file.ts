@@ -1,12 +1,3 @@
-/*
- * @Author: 王嘉哲
- * @Date: 2023-06-06 13:09:50
- * @LastEditors: 王嘉哲
- * @LastEditTime: 2023-06-06 13:09:50
- * @FilePath: template-vue\src\utils\common\file.ts
- * @Description: 文件操作
- */
-
 /**
  * 下载文件到本地
  * @param data - 文件的blob数据

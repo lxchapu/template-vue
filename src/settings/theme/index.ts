@@ -1,11 +1,3 @@
-/*
- * @Author: 杨旭
- * @Date: 2023-06-06 13:09:50
- * @LastEditors: 杨旭
- * @LastEditTime: 2023-06-06 13:09:50
- * @FilePath: template-vue\src\settings\theme\index.ts
- * @Description: 主题设置
- */
 import type { GlobalThemeOverrides } from 'naive-ui'
 import { colord, extend } from 'colord'
 import mixPlugin from 'colord/plugins/mix'

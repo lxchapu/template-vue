@@ -1,11 +1,3 @@
-/*
- * @Author: 王嘉哲
- * @Date: 2023-06-06 13:09:50
- * @LastEditors: 杨旭
- * @LastEditTime: 2023-06-06 13:09:50
- * @FilePath: template-vue\src\service\request\axiosMethods.ts
- * @Description: 将默认axios实例包装
- */
 import type { AxiosProgressEvent, AxiosRequestConfig, AxiosResponse } from 'axios'
 
 import { EnumContentType } from '@/settings'

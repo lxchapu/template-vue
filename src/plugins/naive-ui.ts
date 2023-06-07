@@ -1,11 +1,3 @@
-/*
- * @Author: 王嘉哲
- * @Date: 2023-06-06 13:09:50
- * @LastEditors: 杨旭
- * @LastEditTime: 2023-06-06 13:09:50
- * @FilePath: template-vue\src\plugins\naive-ui.ts
- * @Description: naive-ui 通知类型的方法注入window
- */
 import type { ComputedRef } from 'vue'
 import type { ConfigProviderProps } from 'naive-ui'
 

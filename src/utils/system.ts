@@ -1,11 +1,3 @@
-/*
- * @Author: 王嘉哲
- * @Date: 2023-06-06 13:09:50
- * @LastEditors: 杨旭
- * @LastEditTime: 2023-06-06 13:09:50
- * @FilePath: template-vue\src\utils\system.ts
- * @Description: 底层api 调用
- */
 /**
  * 复制指定文本到剪切板上
  * @param {string} text 要复制的文本

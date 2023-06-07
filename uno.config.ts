@@ -1,11 +1,3 @@
-/*
- * @Author: 杨旭
- * @Date: 2023-06-06 13:09:50
- * @LastEditors: 杨旭
- * @LastEditTime: 2023-06-07 16:06:54
- * @FilePath: \template-vue\uno.config.ts
- * @Description: UnoCSS 配置
- */
 import { defineConfig, presetUno } from 'unocss'
 
 export default defineConfig({

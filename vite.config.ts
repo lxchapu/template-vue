@@ -1,11 +1,3 @@
-/*
- * @Author: 王嘉哲
- * @Date: 2023-06-06 13:09:50
- * @LastEditors: 杨旭
- * @LastEditTime: 2023-06-06 13:09:50
- * @FilePath: template-vue\vite.config.ts
- * @Description: Vite 配置
- */
 import type { ConfigEnv, UserConfig } from 'vite'
 import { loadEnv } from 'vite'
 import { getSrcPath, getRootPath, wrapperEnv } from './build/utils'
