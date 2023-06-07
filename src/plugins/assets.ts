@@ -1,5 +1,6 @@
 /* reset */
-import '@unocss/reset/tailwind-compat.css'
+import '@unocss/reset/sanitize/sanitize.css'
+import '@unocss/reset/sanitize/assets.css'
 /* app */
 import '@/styles/index.scss'
 /* UnoCSS */

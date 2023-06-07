@@ -14,7 +14,7 @@ const goHome = () => {
 
 <template>
   <div class="min-h-screen flex flex-col items-center justify-center py-8">
-    <img src="@/assets/images/404.svg" class="mb-5" alt="404" />
+    <div class="text-60px">404</div>
 
     <p class="mb-2 text-lg font-bold c-gray-700">页面没找到</p>
 
